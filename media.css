@@ -1,0 +1,215 @@
+@media screen and (min-width: 0px) and (max-width: 600px){
+    .nav-content ul,.about-content,.service-content,.resume-content,.columnss,.cards ,.input-row{    
+        flex-flow:wrap column;
+    }
+
+    .contact-content{
+        flex-flow:wrap column-reverse;
+      
+    }
+    .contact{
+        height: auto;
+    }
+      .about-content{
+        width: 150%;
+        height: auto;
+       }
+       .service{
+        margin-top: 100px;
+        height: 200%;
+       }
+       .counter,.service-content,.resume-content{
+        height: auto;
+       }
+       .counter{
+        flex-flow:wrap row;
+       }
+       .counter-item{
+        width: 50%;
+        height: auto;;
+       }
+       .row,.resume-column,.resume-column2,.about-info,.port-column ,.input-row,.port-column3{
+        width: 100%;
+        height: auto;;
+       }
+       .about-info{
+        margin-top: 40px;
+       }
+       .client-card{
+        width: 80%;
+        margin-top: 50px;
+        height: auto;
+       }
+
+       .content-right{
+        width: 100%;
+       }
+       .input-row input{
+         width: 100%; 
+       }
+       .content-left{
+        text-align: center;
+        width: 100%;
+        padding: 0 60px 0 0;
+       }
+       .address-info{
+        justify-content: center;
+      
+        width: 100%;
+
+       }
+       .first-img2, .Second-img1{
+        height: 50%;
+       }
+     
+}
+
+
+
+@media screen and (min-width: 601px) and (max-width: 767px) {
+    .nav-content ul,.about-content,.service-content,.resume-content,.cards ,.input-row{
+        
+        flex-flow:wrap column;
+    }
+    .columnss{
+        flex-flow: row wrap;
+        height: auto;
+    }
+    .contact{
+        height: auto;
+    }
+
+    .contact-content{
+        flex-flow:wrap column-reverse;
+      
+    }
+
+    .counter{
+        flex-flow:wrap row;
+       }
+       .counter-item{
+        width: 50%;
+        height: auto;
+       }
+    .about-content{
+        width: 150%;
+        height: auto;
+       }
+       .about-info{
+        margin-top: 40px;
+       }
+       .service{
+        margin-top: 100px;
+        height: 150%;
+       }
+       .counter,.service-content{
+        height:auto;
+       }
+       .counter-item{
+        width: 50%;
+        height: auto;;
+       }
+       .content-left{
+        text-align: center;
+       padding: 0 90px 0 0;
+       }
+       .address-info{
+        justify-content: center;
+        margin-right: 20px;
+       }
+       .row,.resume-column ,.resume-column2,.about-info,.content-right,.content-left,.input-row {
+        width: 100%;
+        height: auto;
+       }
+       .input-row input{
+        width: 100%;
+       }
+       .port-column{
+        width: 50%;
+        
+       }
+       .first-img2, .Second-img1{
+        height: 50%;
+       }
+       .client-card{
+        width: 80%;
+        margin-top: 50px;
+        height: auto;
+       }
+   
+       .column1{
+       
+        margin-right: 20px;
+      }
+
+
+       .port-column3{
+        flex-direction: row;
+        width: 100%;
+       }
+
+    }
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .nav-content ul,.about-content,.cards{
+     
+        flex-flow:wrap column;
+    }
+    .columnss{
+        flex-flow: row wrap;
+    }
+    .about-content{
+        width: 150%;
+        height: auto;
+       }
+       .about-info{
+        margin-top: 40px;
+       }
+       .service{
+        margin-top: 100px;
+        height: 150%;
+       }
+       .counter,.service-content{
+        height:auto;
+       }
+       .row ,.about-info ,.resume-column ,.resume-column2,.resume-card{
+        width: 100%;
+        height: auto;;
+       }
+       .port-column{
+        width: 50%;
+      
+        
+       }
+
+
+      .column1{
+       
+        margin-right: 20px;
+      }
+
+
+       .port-column3{
+        flex-direction: row;
+        width: 100%;
+       }
+
+       .client-card{
+        width: 80%;
+        margin-top: 50px;
+        height: auto;
+       }
+       .first-img2, .Second-img1{
+        height: 50%;
+       }
+     
+}
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+
+}
